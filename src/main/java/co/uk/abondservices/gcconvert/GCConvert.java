@@ -381,7 +381,7 @@ public class GCConvert extends javax.swing.JFrame {
         mainMenu.add(jSeparator1);
 
         mnuExport.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_E, java.awt.event.InputEvent.CTRL_MASK));
-        mnuExport.setText("Export Current...");
+        mnuExport.setText("Export Current");
         mnuExport.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 mnuExportActionPerformed(evt);
@@ -399,7 +399,7 @@ public class GCConvert extends javax.swing.JFrame {
         mainMenu.add(mnuImport);
 
         mnuSaveLircConf.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_S, java.awt.event.InputEvent.CTRL_MASK));
-        mnuSaveLircConf.setText("Save LIRC.CONF File...");
+        mnuSaveLircConf.setText("Save LIRC.CONF File");
         mnuSaveLircConf.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 mnuSaveLircConfActionPerformed(evt);
