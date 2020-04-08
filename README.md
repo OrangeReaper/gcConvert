@@ -26,3 +26,29 @@ Use 'Export' and 'Import' to save and restore your config/progress.
 
 Note: Apart from when you open the GCC Raw File or Import there are no dialogs; all files are saved in the same directory as the GCC Raw File. 
 
+# how to install and run gcConvert
+
+Instructions below are for a Ubuntu 18.04.4 Desktop installation but should be similar for other linux distributions (especially those that are debian based)
+
+Check your java environemt
+
+    $ java -version
+    
+If JRE is installed you should see something like
+
+    openjdk version "11.0.6" 2020-01-14
+    OpenJDK Runtime Environment (build 11.0.6+10-post-Ubuntu-1ubuntu118.04.1)
+    OpenJDK 64-Bit Server VM (build 11.0.6+10-post-Ubuntu-1ubuntu118.04.1, mixed mode)
+
+Here, version 11 is installed, gcConvert should run OK with versions 8 and above.
+
+If JRE is not istalled you can install it using the following command:
+
+    $ sudo apt install openjdk-11-jre-headless
+
+Once JRE is installed follow the following steps to get gcConvert up and running
+
+    a. download the zip file (above)
+    b. unzip the file
+    c. open a terminal in the directory *</path/to/gcConvert-master>/target*
+    d. run gc-convert using the command line *$ java -jar gcConvert-1.0-SNAPSHOT.jar*
