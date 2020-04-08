@@ -42,7 +42,7 @@ If JRE is installed you should see something like
 
 Here, version 11 is installed, gcConvert should run OK with versions 8 and above.
 
-If JRE is not istalled you can install it using the following command:
+If JRE is not installed you can install it using the following command:
 
     $ sudo apt install openjdk-11-jre-headless
 
@@ -50,5 +50,7 @@ Once JRE is installed follow the following steps to get gcConvert up and running
 
     a. download the zip file (above)
     b. unzip the file
-    c. open a terminal in the directory *</path/to/gcConvert-master>/target*
-    d. run gc-convert using the command line *$ java -jar gcConvert-1.0-SNAPSHOT.jar*
+    c. open a terminal in the directory /path/to/gcConvert-master/target
+    d. run gc-convert using the command line 
+    
+        $ java -jar gcConvert-1.0-SNAPSHOT.jar
